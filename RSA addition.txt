@@ -1,1 +1,36 @@
 RSA algorithm is asymmetric cryptography algorithm. Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. As the name describes that the Public Key is given to everyone and Private key is kept private.
+
+What is RSA encryption?
+Let’s say you want to tell your friend a secret. If you’re right next to them, you can just whisper it. If you are on opposite sides of the country, that obviously won’t work. You could write it down and mail it to them, or use the phone, but each of these communication channels is insecure and anyone with a strong enough motivation could easily intercept the message.
+
+If the secret was important enough, you wouldn’t risk writing it down normally–spies or a rogue postal employee could be looking through your mail. Likewise, someone could be tapping your phone without your knowledge and logging every single call you make.
+
+One solution to prevent eavesdroppers from accessing message contents is to encrypt it. This basically means to add a code to the message which changes it into a jumbled mess. If your code is sufficiently complex, then the only people who will be able to access the original message are those who have access to the code.
+
+If you had a chance to share the code with your friend beforehand, then either of you can send an encrypted message at any time, knowing that you two are the only ones with the ability to read the message contents. 
+This is one of the fundamental problems of cryptography, which has been addressed by public-key encryption schemes (also known as asymmetric encryption) like RSA.
+
+Under RSA encryption, messages are encrypted with a code called a public key, which can be shared openly. Due to some distinct mathematical properties of the RSA algorithm, once a message has been encrypted with the public key, it can only be decrypted by another key, known as the private key. Each RSA user has a key pair consisting of their public and private keys. As the name suggests, the private key must be kept secret.
+
+Public key encryption schemes differ from symmetric-key encryption, where both the encryption and decryption process use the same private key. These differences make public key encryption like RSA useful for communicating in situations where there has been no opportunity to safely distribute keys beforehand.
+
+Where is RSA encryption used?
+
+RSA encryption is often used in combination with other encryption schemes, or for digital signatures which can prove the authenticity and integrity of a message. It isn’t generally used to encrypt entire messages or files, because it is less efficient and more resource-heavy than symmetric-key encryption.
+
+To make things more efficient, a file will generally be encrypted with a symmetric-key algorithm, and then the symmetric key will be encrypted with RSA encryption. Under this process, only an entity that has access to the RSA private key will be able to decrypt the symmetric key.
+
+Without being able to access the symmetric key, the original file can’t be decrypted. This method can be used to keep messages and files secure, without taking too long or consuming too many computational resources.
+
+RSA encryption can be used in a number of different systems. It can be implemented in OpenSSL, wolfCrypt, cryptlib and a number of other cryptographic libraries.
+
+As one of the first widely used public-key encryption schemes, RSA laid the foundations for much of our secure communications. It was traditionally used in TLS and was also the original algorithm used in PGP encryption. RSA is still seen in a range of web browsers, email, VPNs, chat and other communication channels.
+
+RSA is also often used to make secure connections between VPN clients and VPN servers. Under protocols like OpenVPN, TLS handshakes can use the RSA algorithm to exchange keys and establish a secure channel.
+
+Symmetric-key algorithms have their own applications, such as encrypting data for personal use, or for when there are secure channels that the private keys can be shared over.
+
+RSA encryption works through :
+Generating primes
+Generating the public key
+Generating the private key
