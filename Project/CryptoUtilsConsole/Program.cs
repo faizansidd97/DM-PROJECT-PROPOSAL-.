@@ -31,11 +31,12 @@ namespace CryptoUtilsConsole
             TripleDESDemos.LaunchDemo();
 
 
-            // Asymmetric crypto
+            // Asymmetric crypto and Euclidean with RSA
             RSACspDemo.LaunchDemo();
             RsaFileDemo.LaunchDemo();
             RsaInMemoryDemo.LaunchDemo();
-            //dfgdfg
+            EuclideanExtended.LaunchDemo();
+            //comment
             
         }
     }
