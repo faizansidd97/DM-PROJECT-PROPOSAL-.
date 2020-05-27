@@ -1,6 +1,6 @@
 using System;
 
-namespace EuclidExtended
+namespace CryptoUtilsConsole
 {
     public class EuclidExtendedSolution
     {
