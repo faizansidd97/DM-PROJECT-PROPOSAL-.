@@ -8,7 +8,7 @@ namespace CryptoUtilsConsole.hashing
     {
 
         public static byte[] getHMACSHA1(string message)
-        {
+        { /// method to convert input in to sha1  easily and to use ervery where 
             using (var randonNumberGenerator = new RNGCryptoServiceProvider())
             {
                 byte[] key = new byte[32];
@@ -24,7 +24,7 @@ namespace CryptoUtilsConsole.hashing
         
   
         public static void LaunchDemo()
-        {
+        { //main method to excute the sha1 method from input provided by user
             Console.WriteLine("");
 
             Console.WriteLine(" Hmac SHA1 HASH RUNNING ");
