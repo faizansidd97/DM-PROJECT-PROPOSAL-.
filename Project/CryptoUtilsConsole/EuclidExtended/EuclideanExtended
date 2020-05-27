@@ -1,0 +1,43 @@
+using System;
+
+namespace CryptoUtilsConsole
+{
+    public class EuclideanExtended
+    {
+        private long a, b;
+
+        public EuclideanExtended(long a, long b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+
+        public EuclideanExtendedSolution operation()
+        {
+            long x0 = 1, xn = 1;
+            long y0 = 0, yn = 0;
+            long x1 = 0;
+            long y1 = 1;
+            long q;
+            long r = a % b;
+
+            while (r > 0)
+            {
+                q = a / b;
+                xn = x0 - q * x1;
+                yn = y0 - q * y1;
+
+                x0 = x1;
+                y0 = y1;
+                x1 = xn;
+                y1 = yn;
+                a = b;
+                b = r;
+                r = a % b;
+            }
+
+            return new EuclideanExtendedSolution(xn, yn, b);
+        }
+
+    }
+}
