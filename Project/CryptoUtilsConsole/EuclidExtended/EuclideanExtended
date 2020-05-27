@@ -36,7 +36,7 @@ namespace CryptoUtilsConsole
                 r = a % b;
             }
 
-            return new ExtendedEuclideanSolution(xn, yn, b);
+            return new EuclideanExtendedSolution(xn, yn, b);
         }
 
     }
