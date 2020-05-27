@@ -6,6 +6,8 @@ namespace CryptoUtilsConsole.hashing
 {
     class HmacMD5Demos
     {
+        //method to convert input in to md5 hash
+        
         public static byte[] getHMACMD5(string message)
         {
             using (var randonNumberGenerator = new RNGCryptoServiceProvider())
@@ -22,6 +24,8 @@ namespace CryptoUtilsConsole.hashing
 
         public static void LaunchDemo()
         {
+            //main to run or excute the hash method with input
+            
             Console.WriteLine(" Hmac MD5 HASH RUNNING ");
 
             Console.WriteLine("_________________________");
