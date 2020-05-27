@@ -43,4 +43,4 @@ There are 10 rounds for 128-bit keys, 12 rounds for 192-bit keys and 14 rounds f
 3DES
 
 
-3DES works in much the same way as DES, except that goes through three cycles during the encryption process, using three keys: encryption, decryption, and another encryption. It has a key length of 192 bits (64 bits x 3 keys), but its actual strength is 168 bits (56 bits x 3 keys). This method is three times as strong as DES, yet it also means that it is three times slower because of the triple processing. (Strong Encryption Package, Triple DES Encryption, n.d.)
+3DES works in much the same way as DES, except that goes through three cycles during the encryption process, using three keys: encryption, decryption, and another encryption. It has a key length of 192 bits (64 bits x 3 keys), but its actual strength is 168 bits (56 bits x 3 keys). This method is three times as strong as DES, yet it also means that it is three times slower because of the triple processing. (Strong Encryption Package, Triple DES Encryption)
