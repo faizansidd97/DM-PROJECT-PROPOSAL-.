@@ -10,10 +10,10 @@ Afroz Alam. 61870
 
 Faizan Siddiqui. 61913
 
-* Wajahat contributed for Assymetric cryptography concepts.
+* Wajahat ali contributed for Assymetric cryptography concepts through coding and its description.
 
-* Afroz contributed for hashing Hmac-md5, Hmac-sha1 and MD5 concept.
+* Afroz alam contributed for hashing Hmac-md5, Hmac-sha1 and MD5 concept through coding and its description.
 
-* Rahim contribute for Hashing advance, Sha-1, Sha-256, Sha-512 concepts and Euclidean Algorithm and Extended Euclidean Algorithm with relation to RSA.
+* Rahim contribute for Hashing advance, Sha-1, Sha-256, Sha-512 concepts and Euclidean Algorithm and Extended Euclidean Algorithm with relation to RSA through coding and its description.
 
-* Faizan Siddiqui contriubted for AES, DES and Double DES concepts.
+* Faizan Siddiqui contriubted for AES, DES and Double DES concepts through coding and its description.
