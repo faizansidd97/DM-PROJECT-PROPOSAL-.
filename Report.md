@@ -130,3 +130,6 @@ I am breaking down references and dividing them in sub groups.
 
 [TO learn how to implement them in .net](https://www.youtube.com/watch?v=ysxC6-AFEYg)
 
+## Learn to upload images :
+[ to upload images on someone's repository] (https://www.youtube.com/watch?v=hHbWF1Bvgf4)
+[ to upload images on someone's repository] (https://stackoverflow.com/questions/14969281/git-how-to-give-people-push-access-that-needs-to-be-merged-in-by-organizers)
