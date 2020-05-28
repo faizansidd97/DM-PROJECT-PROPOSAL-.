@@ -11,11 +11,7 @@ namespace CryptoUtilsConsole.symmetric_crypto
         {
             using (var DES = new DESCryptoServiceProvider())
             {
-                DES.IV = IV;
-                DES.Key = key;
-                DES.Mode = CipherMode.CBC;
-                DES.Padding = PaddingMode.PKCS7;
-
+                
 
                 using (var memStream = new MemoryStream())
                 {
