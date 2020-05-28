@@ -33,7 +33,10 @@ namespace CryptoUtilsConsole.symmetric_crypto
             string message =Console.ReadLine();
             using (var aes = new AesCryptoServiceProvider())
             {
-               
+                aes.GenerateIV();
+                aes.GenerateKey();
+                aes.Mode = CipherMode.CBC;
+                aes.Padding = PaddingMode.PKCS7;
 
                 byte[] encrypted = AESCrypto(CryptoOperation.ENCRYPT, aes, Encoding.UTF8.GetBytes(message));
                 Console.WriteLine("Encrypted Text :" + BitConverter.ToString(encrypted).Replace("-", ""));
