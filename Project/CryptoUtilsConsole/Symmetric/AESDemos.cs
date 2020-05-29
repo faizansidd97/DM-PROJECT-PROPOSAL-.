@@ -29,7 +29,7 @@ namespace CryptoUtilsConsole.symmetric_crypto
 
         public static void LaunchDemo()
         {
-            Console.WriteLine("Faizan AES DES DDES");
+            Console.WriteLine("Faizoo AES DES DDES");
             string message =Console.ReadLine();
             using (var aes = new AesCryptoServiceProvider())
             {
