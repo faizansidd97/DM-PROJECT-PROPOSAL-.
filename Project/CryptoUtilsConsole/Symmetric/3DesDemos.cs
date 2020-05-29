@@ -34,10 +34,7 @@ namespace CryptoUtilsConsole.symmetric_crypto
                 }
             }
         }
-         public static void LaunchDemo()
-        {
-            
-        }
+      
  
     }
 }
