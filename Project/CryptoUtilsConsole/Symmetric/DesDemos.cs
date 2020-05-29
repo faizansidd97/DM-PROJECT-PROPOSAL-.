@@ -135,7 +135,7 @@ namespace CryptoUtilsConsole.symmetric_crypto
                     break;
                 else
                 {
-                    if (input == "a")
+                    if (input == "b")
                         EncryptFile(filePath, keyy);
                     else if (input == "b")
                         DecryptFile(filePath, keyy);
